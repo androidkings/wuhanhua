@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="greetings">Greetings</string>
+    <string name="app_name">Learn Wuhan Hua</string>
+   
+    <string name="action_settings">Settings</string>
+	<string name="hello">Hello</string>
+	<string name="eat">Have you eaten?</string>
+	<string name="go">Where are you going?</string>
+	<string name="chinese">Can you speak Chinese?</string>
+	<string name="wuhan">I am from Wuhan</string>
+	
+	<string name="numbers">Numbers</string>
+	<string name="much">How much is it ?</string>
+	<string name="n05">Numbers 0 to 5</string>
+	<string name="n610">Numbers 6 to 10</string>
+	<string name="n1115">Numbers 11 to 15</string>
+	<string name="n1620">Numbers 16 to 20</string>
+	
+	<string name="directions">Directions</string>
+	<string name="bus">Where is the bus station?</string>
+	<string name="police">Where is the police station?</string>
+	<string name="train">Where is the train station?</string>
+	<string name="rest">Where is a good restaurant?</string>
+	<string name="hos">Where is the hospital?</string>
+	
+	<string name="food">Food</string>
+	<string name="rice">Rice</string>
+	<string name="noodles">Noodles</string>
+	<string name="beef">Beef</string>
+	<string name="pork">Pork</string>
+	<string name="chicken">Chicken</string>
+	
+	<string name="goback">Go Back</string>
+	
+	<string name="topics">Topics</string>
+	
+</resources>

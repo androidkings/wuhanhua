@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/diretions"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="@string/directions" >
+        </TextView>
+     <Button
+       android:id="@+id/bus"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:onClick="playSound"
+        android:background="#80ff6c"
+       android:text="@string/bus">
+       
+         
+   </Button>
+       <Button
+           android:id="@+id/police"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+          android:onClick="playSound2"
+          android:background="#80ff6c"
+           android:text="@string/police">
+           
+</Button>
+       <Button
+           android:id="@+id/train"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound3"
+           android:background="#80ff6c"
+           android:text="@string/train">
+</Button>
+       <Button
+           android:id="@+id/rest"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound4"
+           android:background="#80ff6c"
+          android:text="@string/rest">
+      </Button> 
+      
+       
+       <Button
+           android:id="@+id/hos"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound5"
+           android:background="#80ff6c"
+          android:text="@string/hos">
+      </Button> 
+      
+       
+       
+       <Button
+           android:id="@+id/GoBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:background="#80ff6c"
+           android:text="@string/goback">
+  </Button>
+
+  
+   </LinearLayout>
+
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="@string/food" >
+        </TextView>
+     <Button
+       android:id="@+id/rice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:onClick="playSound"
+        android:background="#ff7a55"
+       android:text="@string/rice">
+   </Button>
+       <Button
+           android:id="@+id/noodles"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+          android:onClick="playSound2"
+          android:background="#ff7a55"
+           android:text="@string/noodles">
+</Button>
+       <Button
+           android:id="@+id/beef"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound3"
+           android:background="#ff7a55"
+           android:text="@string/beef">
+</Button>
+       <Button
+           android:id="@+id/pork"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound4"
+           android:background="#ff7a55"
+          android:text="@string/pork">
+      </Button> 
+       <Button
+           android:id="@+id/chicken"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound5"
+           android:background="#ff7a55"
+           android:text="@string/chicken">
+      </Button>
+       
+       
+       <Button
+           android:id="@+id/GoBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:background="#ff7a55"
+           android:text="@string/goback">
+  </Button>
+
+  
+   </LinearLayout>
+
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/greetings"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="@string/greetings" >
+        </TextView>
+     <Button
+       android:id="@+id/Hello"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:onClick="playSound"
+          android:background="#c8f1ff"
+       android:text="@string/hello">
+       
+   </Button>
+       <Button
+           android:id="@+id/eaten"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+          android:onClick="playSound2"
+          android:background="#c8f1ff"
+           android:text="@string/eat">
+</Button>
+       <Button
+           android:id="@+id/going"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound3"
+           android:background="#c8f1ff"
+           android:text="@string/go">
+</Button>
+       <Button
+           android:id="@+id/Chinese"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound4"
+           android:background="#c8f1ff"
+          android:text="@string/chinese">
+      </Button> 
+       <Button
+           android:id="@+id/wuhan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound5"
+           android:background="#c8f1ff"
+           android:text="@string/wuhan">
+      </Button>
+       
+      
+       <Button
+           android:id="@+id/GoBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+            android:background="#c8f1ff"
+           android:text="@string/goback">
+  </Button>
+
+  
+   </LinearLayout>
+
+
+

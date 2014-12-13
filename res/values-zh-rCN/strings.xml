@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greetings">问候</string>
+    <string name="app_name">学习武汉话和英语</string>
+    
+    <string name="action_settings">你好</string>
+	<string name="hello">你好</string>
+	<string name="eat">你吃饭了吗？</string>
+	<string name="go">你去哪里?</string>
+	<string name="chinese">你会说中文吗?</string>
+	<string name="wuhan">我来自武汉</string>
+	
+	<string name="numbers">数字</string>
+	<string name="much">这个多少钱?</string>
+	<string name="n05">数字0到5</string>
+	<string name="n610">数字6到10</string>
+	<string name="n1115">数字 11到15</string>
+	<string name="n1620">数字16到 20</string>
+	
+	<string name="directions">方向</string>
+	<string name="bus">公交车站在哪里？</string>
+	<string name="police">警察局在哪里？</string>
+	<string name="train">火车站在哪里？</string>
+	<string name="rest">哪里有好吃的餐馆？</string>
+	<string name="hos">医院在哪里？</string>
+	
+	<string name="food">食品</string>
+	<string name="rice">米饭</string>
+	<string name="noodles">面条</string>
+	<string name="beef">牛肉</string>
+	<string name="pork">猪肉</string>
+	<string name="chicken">鸡肉</string>
+	
+	<string name="goback">返回</string>
+	
+	<string name="topics">主题</string>
+</resources>

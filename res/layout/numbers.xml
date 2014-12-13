@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="@string/numbers" >
+        </TextView>
+     <Button
+       android:id="@+id/much"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:onClick="playSound"
+        android:background="#daffa5"
+       android:text="@string/much">
+       
+         
+   </Button>
+       <Button
+           android:id="@+id/n05"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+          android:onClick="playSound2"
+          android:background="#daffa5"
+           android:text="@string/n05">
+</Button>
+       <Button
+           android:id="@+id/n610"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound3"
+           android:background="#daffa5"
+           android:text="@string/n610">
+</Button>
+       <Button
+           android:id="@+id/n1115"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound4"
+           android:background="#daffa5"
+          android:text="@string/n1115">
+      </Button> 
+       <Button
+           android:id="@+id/n1620"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:onClick="playSound5"
+           android:background="#daffa5"
+           android:text="@string/n1620">
+      </Button>
+       
+       
+       <Button
+           android:id="@+id/GoBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:background="#daffa5"
+           android:text="@string/goback">
+  </Button>
+
+  
+   </LinearLayout>
+
+
+
