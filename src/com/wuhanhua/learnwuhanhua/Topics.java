@@ -36,6 +36,8 @@ public class Topics extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.topics);
+		
+
 
 		GtBtn = (Button)findViewById(R.id.Greetings);
 		GtBtn.setOnClickListener(new OnClickListener() {
