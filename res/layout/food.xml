@@ -69,6 +69,17 @@
            android:background="#ff7a55"
            android:text="@string/goback">
   </Button>
+  
+        <ImageView android:background="@android:color/white"
+           android:contentDescription="@string/app_name"
+	   
+	    android:src="@drawable/food"  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+	    
+	</ImageView> 
 
   
    </LinearLayout>
